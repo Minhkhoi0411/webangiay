@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&family=Francois+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.section-main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/1296113.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-main h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 80px;
+}
+
+header {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    transition: 0.6s;
+}
+
+header.sticky {
+    background: #008576;
+    padding: 15px 100px;
+}
+
+header .Sneaker {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+header .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font: bold;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 0 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: color, background;
+}
+
+header .menu a:hover {
+    color: white;
+    background: rgb(0, 153, 255);
+}
+
+header .btn {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.section-two {
+    min-height: 100vh;
+    background-color: #008576;
+    padding: 20px 100px;
+}
+
+.section-two h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 50px 50px 75px;
+    float: left;
+}

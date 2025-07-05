@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;}
+body{   
+    background-color: aqua;}
+#main{
+    background-color: #fff;
+    width: 1200px;
+    margin: auto;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    }
+.TieuDe{
+    font-size: 30px;
+    text-align: center;}
+.spham{
+    width:250px;
+    height: auto;
+    margin-top:10px;
+    background-color: bisque;
+    margin-left: 5px;
+}
+.hinhsp{
+    margin-top:10px;
+   
+    display: flex;
+    justify-content: center;
+}
+.imgsp{
+    width: 230px;
+    height: 200px}
+.imgsp:hover{
+        transform: scaleX(-1);
+    }
+.tensp{
+    color:crimson;
+    font-weight: bold;
+}
+.chudamxanh{
+    font-weight: bold;
+    color: blue;
+}
+.pad{
+    padding: 10px}
+.dongia{
+    text-align: right;}
+.muasp{
+    text-decoration: none;
+    display: block;
+    width:40%;
+    background-color:coral;
+    padding: 5px;
+    color: cornsilk;
+    text-align: center;
+    border-radius: 5px;
+}
+.muangay{
+    display: flex;
+    justify-content: flex-end;
+}
+.phantrang{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    margin: 0 auto;
+
+}
+.page-item{
+    margin:5px;
+    border: 1px solid #ECEBED;
+    padding: 5px 10px;
+    color:#000;
+    background-color: #FFF; 
+    text-decoration: none;
+}
+.current-page{
+    background-color:#969A96;            
+    color:#fff;
+}

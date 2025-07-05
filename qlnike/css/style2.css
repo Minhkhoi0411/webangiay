@@ -1,0 +1,59 @@
+h1,
+h3 {
+    text-align: center;
+    color: green;
+}
+
+.hinhanh {
+    width: 100px;
+    border-radius: 15px;
+    height: auto;
+}
+
+.giua {
+    margin: 0 10 15 20;
+    width: 65em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.border {
+    border-style: ridge;
+}
+
+.canhgiua {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hinhsp {
+    width: 50px;
+    height: auto;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 10px 5px;
+    background-color: gainsboro;
+    border: 1px solid wheat;
+    text-align: center;
+}
+
+#trangchu {
+    font-size: 20pt;
+    border-bottom: 1px solid rgb(42, 238, 186);
+    padding: 10px 0px 0px 10px;
+    text-align: center;
+}
+
+#trangchu a {
+    text-decoration: none;
+    display: block;
+    width: 180px;
+    border-radius: 5px;
+    background-color: navy;
+    color: mediumturquoise;
+    padding: 5px;
+}

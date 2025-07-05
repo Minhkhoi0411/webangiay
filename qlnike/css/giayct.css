@@ -1,0 +1,68 @@
+/* spham_ct.php*/
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body {
+    /*background: #1690a7;*/
+    background-color: #D8B5DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_spct {
+    background-color: #fff;
+    width: 95%;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 15px 0px 5px 5px;
+    color: #1690a7;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+#sp_chitiet {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+#khunghinh {
+    width: 30%;
+    text-align: center;
+}
+
+#hinh_sp {
+    width: 50%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#ttsp {
+    width: 70%;
+}
+
+input {
+    text-align: center;
+}
+
+.pad {
+    padding: 5px;
+}
+
+.chuxanh {
+    color: #00f;
+}
+
+.tensp {
+    color: #d2c;
+    font-size: 18px;
+}

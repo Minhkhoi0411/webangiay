@@ -1,0 +1,37 @@
+body {
+    max-width: 1140px;
+    height: auto;
+    margin: auto;
+    padding: 5px 0px 0px;
+}
+h1{
+    text-align: center;
+
+}
+.imgsp {
+    width: 690px;
+    height: 540px;
+    margin-left: 200px;
+}
+p{
+    font-family: "Mulish", sans-serif;
+    font-size: 100%;
+    color: #333333;
+    line-height: 1.6;
+    font-weight: 400;
+}
+#trangchu {
+    font-size: 20pt;
+    padding: 10px 0px 0px 10px;
+    text-align: center;
+}
+
+#trangchu a {
+    text-decoration: none;
+    display: block;
+    width: 180px;
+    border-radius: 5px;
+    background-color: navy;
+    color: mediumturquoise;
+    padding: 5px;
+}
